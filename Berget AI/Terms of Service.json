@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T19:00:08.225Z",
+    "serviceName": "Berget AI",
+    "sourceDocuments": [
+      {
+        "id": "terms",
+        "fetch": "https://berget.ai/terms",
+        "select": [
+          "main"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "b98060849a63b90e7d9fe27cab0a5ef08698cab0"
+      }
+    ]
+  }
+}
