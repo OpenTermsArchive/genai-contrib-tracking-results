@@ -1,0 +1,21 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-29T19:09:31.001Z",
+    "serviceName": "SOUNDRAW",
+    "sourceDocuments": [
+      {
+        "id": "privacy",
+        "fetch": "https://soundraw.io/privacy",
+        "select": [
+          ".container"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "9099e2ce4202d9a66098c6661586f14b00a11554"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[\".container\"]\" has no match in the web page at 'https://soundraw.io/privacy'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
