@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T19:10:25.757Z",
+    "serviceName": "Wordtune",
+    "sourceDocuments": [
+      {
+        "id": "terms-of-use",
+        "fetch": "https://www.wordtune.com/terms-of-use",
+        "select": [
+          ".title-64",
+          ".section > .legal"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "90fb6c67bc233379d4c0d33d8c63bf3e2e08c7d7"
+      }
+    ]
+  }
+}
