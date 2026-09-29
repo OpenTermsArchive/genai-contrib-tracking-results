@@ -1,0 +1,22 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-29T19:08:50.468Z",
+    "serviceName": "Rephrase.ai",
+    "sourceDocuments": [
+      {
+        "id": "privacy-policy",
+        "fetch": "https://www.rephrase.ai/privacy-policy",
+        "select": [
+          ".heading-pageheader",
+          ".policypg"
+        ],
+        "mimeType": null,
+        "snapshotId": null
+      }
+    ],
+    "reasons": [
+      "[fetch] Fetch failed: Network system error ENOTFOUND occurred when trying to fetch 'https://www.rephrase.ai/privacy-policy'"
+    ]
+  }
+}
