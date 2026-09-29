@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T19:09:40.427Z",
+    "serviceName": "Stability AI",
+    "sourceDocuments": [
+      {
+        "id": "privacypolicy",
+        "fetch": "https://stability.ai/privacypolicy",
+        "select": [
+          ".content"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "7b8a08e401d993c707591ae7fdcb2d315f630cf0"
+      }
+    ]
+  }
+}
