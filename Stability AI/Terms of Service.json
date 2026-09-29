@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T19:09:36.731Z",
+    "serviceName": "Stability AI",
+    "sourceDocuments": [
+      {
+        "id": "terms-of-service",
+        "fetch": "https://stability.ai/terms-of-service",
+        "select": [
+          ".content"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "7b17ec66cd8d8e3c4f2f86bf66aded86ae4afef6"
+      }
+    ]
+  }
+}
