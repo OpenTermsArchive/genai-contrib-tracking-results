@@ -1,0 +1,23 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T19:10:11.449Z",
+    "serviceName": "文心一言",
+    "sourceDocuments": [
+      {
+        "id": "static-passpc-account-html-protocal",
+        "fetch": "https://passport.baidu.com/static/passpc-account/html/protocal.html",
+        "select": [
+          "body"
+        ],
+        "remove": [
+          ".mod-header",
+          ".mod-footer"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "2ab9ce924eefc18cdaae5410685a00c85ea7b2ac"
+      }
+    ]
+  }
+}
