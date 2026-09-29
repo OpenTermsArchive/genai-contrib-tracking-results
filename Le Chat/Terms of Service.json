@@ -1,0 +1,24 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-29T19:05:51.109Z",
+    "serviceName": "Le Chat",
+    "sourceDocuments": [
+      {
+        "id": "terms",
+        "fetch": "https://mistral.ai/terms/",
+        "select": [
+          "#terms-of-service",
+          "#additional-terms-for-consumers",
+          "#additional-product-terms",
+          "#additional-terms-for-ai-laws-responsibilities"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "07633cf506dae6a236c24562d59e28fa792b8646"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[\"#terms-of-service\",\"#additional-terms-for-consumers\",\"#additional-product-terms\",\"#additional-terms-for-ai-laws-responsibilities\"]\" has no match in the web page at 'https://mistral.ai/terms/'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
