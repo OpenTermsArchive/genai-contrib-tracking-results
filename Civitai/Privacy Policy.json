@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T19:02:09.764Z",
+    "serviceName": "Civitai",
+    "sourceDocuments": [
+      {
+        "id": "content-privacy",
+        "fetch": "https://civitai.com/content/privacy",
+        "select": [
+          ".mantine-Container-root"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "0b9cf388e69bb531f5d07309db29b82ca65da50a"
+      }
+    ]
+  }
+}
