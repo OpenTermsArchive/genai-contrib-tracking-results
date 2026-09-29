@@ -1,0 +1,25 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-29T19:08:37.035Z",
+    "serviceName": "Qwen Chat",
+    "sourceDocuments": [
+      {
+        "id": "legal-agreement-terms-of-service",
+        "fetch": "https://chat.qwen.ai/legal-agreement/terms-of-service",
+        "select": [
+          ".legalPage"
+        ],
+        "remove": [
+          "img[src*=\"qwen_icon\"]"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "47ec6b88a6b787acf5da933bc947ddc764b2f24e"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[\".legalPage\"]\" has no match in the web page at 'https://chat.qwen.ai/legal-agreement/terms-of-service'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
