@@ -1,0 +1,22 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-29T19:08:14.950Z",
+    "serviceName": "OpenRouter",
+    "sourceDocuments": [
+      {
+        "id": "privacy",
+        "fetch": "https://openrouter.ai/privacy",
+        "select": [
+          ".main-content-container"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "bcd966c96a2affdddb14ea286b4588810dd7316b"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[\".main-content-container\"]\" has no match in the web page at 'https://openrouter.ai/privacy'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
