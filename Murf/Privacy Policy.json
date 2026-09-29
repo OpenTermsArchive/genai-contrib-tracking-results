@@ -1,0 +1,29 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T19:07:48.553Z",
+    "serviceName": "Murf",
+    "sourceDocuments": [
+      {
+        "id": "resources-privacy_policy",
+        "fetch": "https://murf.ai/resources/privacy_policy/",
+        "select": [
+          ".main-wrapper"
+        ],
+        "remove": ".blog_toc-wrapper",
+        "mimeType": "text/html",
+        "snapshotId": "10d939fa53ad0bc981a7a406aa62447a9fa2b662"
+      },
+      {
+        "id": "resources-gdpr_policy",
+        "fetch": "https://murf.ai/resources/gdpr_policy/",
+        "select": [
+          ".main-wrapper"
+        ],
+        "remove": ".blog_toc-wrapper",
+        "mimeType": "text/html",
+        "snapshotId": "406ddf8b51de18dc17553fc245f033a14bf6e4a1"
+      }
+    ]
+  }
+}
