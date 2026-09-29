@@ -1,0 +1,24 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-29T19:04:51.233Z",
+    "serviceName": "Grok",
+    "sourceDocuments": [
+      {
+        "id": "legal-acceptable-use-policy",
+        "fetch": "https://x.ai/legal/acceptable-use-policy",
+        "select": [
+          "body > header + section"
+        ],
+        "remove": [
+          "[href=\"/legal\"]:first-child"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "7565c764705ff60f03f57da042f894ef6c53a89c"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[\"body > header + section\"]\" has no match in the web page at 'https://x.ai/legal/acceptable-use-policy'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
