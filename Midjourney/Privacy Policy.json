@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T19:07:43.407Z",
+    "serviceName": "Midjourney",
+    "sourceDocuments": [
+      {
+        "id": "docs-privacy-policy",
+        "fetch": "https://docs.midjourney.com/docs/privacy-policy",
+        "select": "article",
+        "mimeType": "text/html",
+        "snapshotId": "94d252a00b0f32f82c55142d854befb3496ab8ad"
+      }
+    ]
+  }
+}
