@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T19:02:23.679Z",
+    "serviceName": "Codeium",
+    "sourceDocuments": [
+      {
+        "id": "terms-of-service-individual",
+        "fetch": "https://codeium.com/terms-of-service-individual",
+        "select": [
+          "article"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "e57c16c1db92ee9f22b7127b09c702b6ebf18934"
+      }
+    ]
+  }
+}
