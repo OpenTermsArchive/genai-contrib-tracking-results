@@ -1,0 +1,40 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-29T19:07:02.988Z",
+    "serviceName": "Llama API",
+    "sourceDocuments": [
+      {
+        "id": "docs-trust-data-commitments",
+        "fetch": "https://llama.developer.meta.com/docs/trust/data-commitments",
+        "select": "[data-pagelet=\"LLMDCPageMainContent\"]",
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "bc89898b709d58e1d73c74217a8c435a185c06a2"
+      },
+      {
+        "id": "privacy-policy-printable",
+        "fetch": "https://mbasic.facebook.com/privacy/policy/printable/",
+        "select": [
+          "#root"
+        ],
+        "remove": [
+          ".k",
+          ".l",
+          ".bh",
+          ".bk",
+          ".bi"
+        ],
+        "filter": [
+          "removeTrackingIDs"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "728c27e07a5bea52becb4df6c086570854de7faf"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[data-pagelet=\"LLMDCPageMainContent\"]\" has no match in the web page at 'https://llama.developer.meta.com/docs/trust/data-commitments'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
