@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T19:08:23.056Z",
+    "serviceName": "Pirr",
+    "sourceDocuments": [
+      {
+        "id": "privacy-policy",
+        "fetch": "https://www.pirr.ai/privacy-policy",
+        "select": [
+          ".container"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "bdc9ab0845b72977c79dabd2428476a64b975a43"
+      }
+    ]
+  }
+}
