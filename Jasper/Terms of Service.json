@@ -1,0 +1,17 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T19:05:33.090Z",
+    "serviceName": "Jasper",
+    "sourceDocuments": [
+      {
+        "id": "legal-terms",
+        "fetch": "https://www.jasper.ai/legal/terms",
+        "select": ".sticky_scroll_right",
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "595f73aa71e47dd095a1ea2b8ac140a01c902efc"
+      }
+    ]
+  }
+}
