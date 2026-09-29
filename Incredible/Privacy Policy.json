@@ -1,0 +1,22 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-29T19:10:27.116Z",
+    "serviceName": "Incredible",
+    "sourceDocuments": [
+      {
+        "id": "policy-privacy-policy",
+        "fetch": "https://web.incredible.one/policy/privacy-policy",
+        "select": [
+          "main"
+        ],
+        "executeClientScripts": true,
+        "mimeType": null,
+        "snapshotId": null
+      }
+    ],
+    "reasons": [
+      "[fetch] Fetch failed: net::ERR_NAME_NOT_RESOLVED at https://web.incredible.one/policy/privacy-policy"
+    ]
+  }
+}
