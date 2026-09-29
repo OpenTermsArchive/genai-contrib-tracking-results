@@ -1,0 +1,23 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-29T19:10:31.594Z",
+    "serviceName": "Rephrase.ai",
+    "sourceDocuments": [
+      {
+        "id": "cookie-policy",
+        "fetch": "https://www.rephrase.ai/cookie-policy",
+        "select": [
+          ".heading-pageheader",
+          ".iub_content"
+        ],
+        "executeClientScripts": true,
+        "mimeType": null,
+        "snapshotId": null
+      }
+    ],
+    "reasons": [
+      "[fetch] Fetch failed: net::ERR_NAME_NOT_RESOLVED at https://www.rephrase.ai/cookie-policy"
+    ]
+  }
+}
