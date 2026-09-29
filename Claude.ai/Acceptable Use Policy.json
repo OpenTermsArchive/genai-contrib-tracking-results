@@ -1,0 +1,48 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-29T19:02:16.873Z",
+    "serviceName": "Claude.ai",
+    "sourceDocuments": [
+      {
+        "id": "legal-aup",
+        "fetch": "https://www.anthropic.com/legal/aup",
+        "select": [
+          "main"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "7d4eeb40290c024c0d636341e9cd525a1c1cbd3c"
+      },
+      {
+        "id": "en-articles-9307344-responsible-use-of-anthropic-s-models-guidelines-for-organizations-serving-minors",
+        "fetch": "https://support.anthropic.com/en/articles/9307344-responsible-use-of-anthropic-s-models-guidelines-for-organizations-serving-minors",
+        "select": [
+          ".article"
+        ],
+        "remove": [
+          ".avatar__info",
+          ".related_articles"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "bf803753812fbd9e385c870890ec64cf07a915d0"
+      },
+      {
+        "id": "en-articles-9528712-exceptions-to-our-usage-policy",
+        "fetch": "https://support.anthropic.com/en/articles/9528712-exceptions-to-our-usage-policy",
+        "select": [
+          ".article"
+        ],
+        "remove": [
+          ".avatar__info",
+          ".related_articles"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "a1b02b44dc6156bfa4cd1dd67060dbecf20623f3"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[\".article\"]\" has no match in the web page at 'https://support.anthropic.com/en/articles/9307344-responsible-use-of-anthropic-s-models-guidelines-for-organizations-serving-minors'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content.",
+      "[extraction] Extract failed: The provided selector \"[\".article\"]\" has no match in the web page at 'https://support.anthropic.com/en/articles/9528712-exceptions-to-our-usage-policy'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
