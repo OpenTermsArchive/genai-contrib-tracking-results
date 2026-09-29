@@ -1,0 +1,22 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-29T19:02:50.729Z",
+    "serviceName": "Cursor",
+    "sourceDocuments": [
+      {
+        "id": "privacy",
+        "fetch": "https://www.cursor.com/privacy",
+        "select": [
+          ".page"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "09085637385f00eeb3b093847f81c5900c0b0004"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[\".page\"]\" has no match in the web page at 'https://www.cursor.com/privacy'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
