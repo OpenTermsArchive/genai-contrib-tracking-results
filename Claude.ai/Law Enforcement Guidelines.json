@@ -1,0 +1,25 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-29T19:02:22.151Z",
+    "serviceName": "Claude.ai",
+    "sourceDocuments": [
+      {
+        "id": "en-articles-9035075-law-enforcement-requests",
+        "fetch": "https://support.anthropic.com/en/articles/9035075-law-enforcement-requests",
+        "select": [
+          ".article"
+        ],
+        "remove": [
+          ".avatar__info",
+          ".related_articles"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "466a3d7789936109b9550476cc9e53f7f2847527"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[\".article\"]\" has no match in the web page at 'https://support.anthropic.com/en/articles/9035075-law-enforcement-requests'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
