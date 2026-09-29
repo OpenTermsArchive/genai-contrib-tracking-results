@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T19:03:33.112Z",
+    "serviceName": "fal",
+    "sourceDocuments": [
+      {
+        "id": "terms",
+        "fetch": "https://fal.ai/terms",
+        "select": [
+          "body"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "faead21c50fd229bac158e785d5080e59ec03133"
+      }
+    ]
+  }
+}
