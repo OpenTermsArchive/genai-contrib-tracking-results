@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T19:02:26.324Z",
+    "serviceName": "Copy.AI",
+    "sourceDocuments": [
+      {
+        "id": "privacy-notice",
+        "fetch": "https://www.copy.ai/privacy-notice",
+        "select": [
+          ".heading-01-hero",
+          ".rich-text-block-4"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "54c95fb83cd3783c63f3c025f2ba9bba0a241e62"
+      }
+    ]
+  }
+}
