@@ -1,0 +1,21 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-29T19:00:06.221Z",
+    "serviceName": "Bardeen",
+    "sourceDocuments": [
+      {
+        "id": "terms-of-service",
+        "fetch": "https://www.bardeen.ai/terms-of-service",
+        "select": [
+          ".content-container"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "9bb8493f473dae6946cc8ee86fc07de69ad481d3"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[\".content-container\"]\" has no match in the web page at 'https://www.bardeen.ai/terms-of-service'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
