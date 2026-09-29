@@ -1,0 +1,25 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-29T19:07:35.740Z",
+    "serviceName": "Microsoft Copilot",
+    "sourceDocuments": [
+      {
+        "id": "new-termsofuse",
+        "fetch": "https://www.bing.com/new/termsofuse?setlang=en",
+        "select": [
+          "#page_content"
+        ],
+        "remove": [
+          ".cdx_mkt_brand"
+        ],
+        "executeClientScripts": true,
+        "mimeType": null,
+        "snapshotId": null
+      }
+    ],
+    "reasons": [
+      "[fetch] Fetch failed: Received HTTP code 404 when trying to fetch 'https://www.bing.com/new/termsofuse?setlang=en'"
+    ]
+  }
+}
