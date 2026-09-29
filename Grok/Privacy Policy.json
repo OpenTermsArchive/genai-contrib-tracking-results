@@ -1,0 +1,37 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-29T19:04:38.556Z",
+    "serviceName": "Grok",
+    "sourceDocuments": [
+      {
+        "id": "legal-privacy-policy",
+        "fetch": "https://x.ai/legal/privacy-policy/",
+        "select": [
+          "body > header + section"
+        ],
+        "remove": [
+          "[href=\"/legal\"]:first-child"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "1d1c47eaa362fe4091bf4b4c9bd47daa5cbf516c"
+      },
+      {
+        "id": "legal-europe-privacy-policy-addendum",
+        "fetch": "https://x.ai/legal/europe-privacy-policy-addendum",
+        "select": [
+          "body > header + section"
+        ],
+        "remove": [
+          "[href=\"/legal\"]:first-child"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "d8b58ce9740a1946ceade286d0254927982080d1"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[\"body > header + section\"]\" has no match in the web page at 'https://x.ai/legal/privacy-policy/'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content.",
+      "[extraction] Extract failed: The provided selector \"[\"body > header + section\"]\" has no match in the web page at 'https://x.ai/legal/europe-privacy-policy-addendum'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
