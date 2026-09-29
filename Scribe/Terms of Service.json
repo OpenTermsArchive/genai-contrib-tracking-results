@@ -1,0 +1,21 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-29T19:09:29.188Z",
+    "serviceName": "Scribe",
+    "sourceDocuments": [
+      {
+        "id": "legal-terms",
+        "fetch": "https://scribehow.com/legal/terms",
+        "select": [
+          ".resources-block-inner-wrapper"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "227bdf2c46c8399cc92ac62e9be1aa9ee32d4dbb"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[\".resources-block-inner-wrapper\"]\" has no match in the web page at 'https://scribehow.com/legal/terms'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
