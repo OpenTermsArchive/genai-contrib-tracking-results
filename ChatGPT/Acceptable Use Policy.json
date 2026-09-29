@@ -1,0 +1,68 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-29T19:01:14.143Z",
+    "serviceName": "ChatGPT",
+    "sourceDocuments": [
+      {
+        "id": "policies-usage-policies",
+        "fetch": "https://openai.com/policies/usage-policies/",
+        "select": [
+          "main"
+        ],
+        "remove": [
+          "select[name=\"Locale Select\"]",
+          "main .sr-only"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "07dc23c41922fe981e623a9ba25a0bf9b266e256"
+      },
+      {
+        "id": "policies-using-chatgpt-agent-in-line-with-our-policies",
+        "fetch": "https://openai.com/policies/using-chatgpt-agent-in-line-with-our-policies/",
+        "select": [
+          "main"
+        ],
+        "remove": [
+          "select[name=\"Locale Select\"]",
+          "main .sr-only"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "f44a5af1d8e8cea590be5af13968f81fe1103712"
+      },
+      {
+        "id": "policies-creating-images-and-videos-in-line-with-our-policies",
+        "fetch": "https://openai.com/policies/creating-images-and-videos-in-line-with-our-policies/",
+        "select": [
+          "main"
+        ],
+        "remove": [
+          "select[name=\"Locale Select\"]",
+          "main .sr-only"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "e77c21f6108547f5697802e726b2fb1e3d12afbf"
+      },
+      {
+        "id": "policies-sharing-publication-policy",
+        "fetch": "https://openai.com/policies/sharing-publication-policy/",
+        "select": [
+          "main"
+        ],
+        "remove": [
+          "select[name=\"Locale Select\"]",
+          "main .sr-only"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "75f59d17f8c47f22245242801baa4bb9d050e74f"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[\"main\"]\" has no match in the web page at 'https://openai.com/policies/creating-images-and-videos-in-line-with-our-policies/'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
