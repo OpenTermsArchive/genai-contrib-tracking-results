@@ -1,0 +1,27 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-29T19:03:46.302Z",
+    "serviceName": "Fireworks AI",
+    "sourceDocuments": [
+      {
+        "id": "terms-of-service",
+        "fetch": "https://fireworks.ai/terms-of-service",
+        "select": [
+          "body"
+        ],
+        "remove": [
+          "#announcementBar",
+          "#header",
+          "#footer"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "1f8ff43194943eafb2cb0dccb0e5d867695a8dfd"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[\"body\"]\" matches an empty content in the web page at 'https://fireworks.ai/terms-of-service'"
+    ]
+  }
+}
