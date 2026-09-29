@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T19:08:54.182Z",
+    "serviceName": "Replicate",
+    "sourceDocuments": [
+      {
+        "id": "privacy",
+        "fetch": "https://replicate.com/privacy",
+        "select": [
+          "article"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "60ecbd147c68b8771209676fa46a4ab78ffb1aef"
+      }
+    ]
+  }
+}
