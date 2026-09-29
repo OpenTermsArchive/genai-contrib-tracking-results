@@ -1,0 +1,22 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T19:02:55.916Z",
+    "serviceName": "DALL·E",
+    "sourceDocuments": [
+      {
+        "id": "policies-eu-terms-of-use",
+        "fetch": "https://openai.com/policies/eu-terms-of-use/",
+        "select": [
+          "main"
+        ],
+        "remove": [
+          "select[name=\"Locale Select\"]"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "df726f6f5bbc5691e048eccf1eecfc37de85f224"
+      }
+    ]
+  }
+}
