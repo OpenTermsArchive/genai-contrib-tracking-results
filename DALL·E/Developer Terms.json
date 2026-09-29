@@ -1,0 +1,22 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T19:03:06.455Z",
+    "serviceName": "DALL·E",
+    "sourceDocuments": [
+      {
+        "id": "policies-plugin-terms",
+        "fetch": "https://openai.com/policies/plugin-terms",
+        "select": [
+          "main"
+        ],
+        "remove": [
+          "select[name=\"Locale Select\"]"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "0ace4aaf1cf475082bb040cfa0c343201e2f4413"
+      }
+    ]
+  }
+}
