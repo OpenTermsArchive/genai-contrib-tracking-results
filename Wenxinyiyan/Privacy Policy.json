@@ -1,0 +1,30 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-29T19:10:25.233Z",
+    "serviceName": "文心一言",
+    "sourceDocuments": [
+      {
+        "id": "policy",
+        "fetch": "https://privacy.baidu.com/policy",
+        "select": [
+          ".Policy"
+        ],
+        "remove": [
+          ".apps",
+          ".section:nth-child(4) > .title",
+          ".left",
+          ".pb-title",
+          ".pb-title-en",
+          ".pb-des"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "8d839c86ee99bea48712eaf62d6c67d65dd4241f"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[\".Policy\"]\" has no match in the web page at 'https://privacy.baidu.com/policy'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
