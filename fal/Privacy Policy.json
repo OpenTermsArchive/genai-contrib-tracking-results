@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T19:03:35.407Z",
+    "serviceName": "fal",
+    "sourceDocuments": [
+      {
+        "id": "privacy",
+        "fetch": "https://fal.ai/privacy",
+        "select": [
+          "body"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "0d10b3e034bafb9c5ebd987a857eff0928ae2ee6"
+      }
+    ]
+  }
+}
