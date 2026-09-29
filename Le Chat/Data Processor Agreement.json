@@ -1,0 +1,31 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-29T19:05:58.418Z",
+    "serviceName": "Le Chat",
+    "sourceDocuments": [
+      {
+        "id": "terms",
+        "fetch": "https://mistral.ai/terms/",
+        "select": [
+          "#data-processing-addendum"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "4291e9ec9e07fa230ce35bb08d213a1e47958d2b"
+      },
+      {
+        "id": "subprocessors",
+        "fetch": "https://trust.mistral.ai/subprocessors",
+        "select": [
+          "table"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "7bd831c91f54d3e2050ad40ad664fed86904a1e9"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[\"#data-processing-addendum\"]\" has no match in the web page at 'https://mistral.ai/terms/'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
