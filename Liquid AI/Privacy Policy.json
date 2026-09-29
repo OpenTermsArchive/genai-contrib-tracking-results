@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T19:06:00.502Z",
+    "serviceName": "Liquid AI",
+    "sourceDocuments": [
+      {
+        "id": "privacy-policy",
+        "fetch": "https://liquid.ai/privacy-policy",
+        "select": [
+          "h1",
+          ".legal-rich-text"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "ac30b67b839010a3bc5b77cf764df107c9923ee5"
+      }
+    ]
+  }
+}
