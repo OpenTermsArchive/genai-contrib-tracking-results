@@ -1,0 +1,17 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T19:05:39.507Z",
+    "serviceName": "Jasper",
+    "sourceDocuments": [
+      {
+        "id": "legal-dpa",
+        "fetch": "https://www.jasper.ai/legal/dpa",
+        "select": ".sticky_scroll_right",
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "7406ca5006db1cb184be3f39812f74b36cc4730d"
+      }
+    ]
+  }
+}
