@@ -1,0 +1,15 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T19:09:25.958Z",
+    "serviceName": "Sana",
+    "sourceDocuments": [
+      {
+        "id": "download-legal-data-processing-addendum",
+        "fetch": "https://sanalabs.com/download/legal/data-processing-addendum.pdf",
+        "mimeType": "application/pdf",
+        "snapshotId": "9367a5e531a0a1aa294199c3c2e04a2263f533e4"
+      }
+    ]
+  }
+}
