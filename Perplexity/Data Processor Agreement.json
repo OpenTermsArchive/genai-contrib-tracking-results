@@ -1,0 +1,22 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-29T19:10:29.955Z",
+    "serviceName": "Perplexity",
+    "sourceDocuments": [
+      {
+        "id": "hub-legal-dpa",
+        "fetch": "https://www.perplexity.ai/hub/legal/dpa",
+        "select": [
+          "[data-framer-name=Post]"
+        ],
+        "executeClientScripts": true,
+        "mimeType": null,
+        "snapshotId": null
+      }
+    ],
+    "reasons": [
+      "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://www.perplexity.ai/hub/legal/dpa'"
+    ]
+  }
+}
