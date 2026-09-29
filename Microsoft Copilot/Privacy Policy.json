@@ -1,0 +1,30 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T19:07:36.561Z",
+    "serviceName": "Microsoft Copilot",
+    "sourceDocuments": [
+      {
+        "id": "en-ie-privacystatement",
+        "fetch": "https://privacy.microsoft.com/en-ie/privacystatement",
+        "select": [
+          ".col:nth-child(3)",
+          "#areaheading-uidda881 > .row"
+        ],
+        "remove": [
+          ".expand_collapse",
+          ".div_print",
+          ".nav_content",
+          ".LearnMoreNavigation",
+          ".TopNavigation",
+          ".CollectingYourInfoRightNav",
+          ".gcc_cookies",
+          "#dvGroupModules",
+          "#dvServicesAgreement"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "fd2fcbb44181c8ea5290a38d708d752e952daecf"
+      }
+    ]
+  }
+}
