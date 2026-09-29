@@ -1,0 +1,22 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-29T19:10:28.286Z",
+    "serviceName": "Perplexity",
+    "sourceDocuments": [
+      {
+        "id": "hub-legal-privacy-policy",
+        "fetch": "https://www.perplexity.ai/hub/legal/privacy-policy",
+        "select": [
+          "[data-framer-name=Post]"
+        ],
+        "executeClientScripts": true,
+        "mimeType": null,
+        "snapshotId": null
+      }
+    ],
+    "reasons": [
+      "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://www.perplexity.ai/hub/legal/privacy-policy'"
+    ]
+  }
+}
