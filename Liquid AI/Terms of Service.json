@@ -1,0 +1,29 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T19:05:59.925Z",
+    "serviceName": "Liquid AI",
+    "sourceDocuments": [
+      {
+        "id": "terms-conditions",
+        "fetch": "https://liquid.ai/terms-conditions",
+        "select": [
+          "h1",
+          ".legal-rich-text"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "1ceac0a38ad9ddb579d45692ccff9a982ccd6cc1"
+      },
+      {
+        "id": "lfm-license",
+        "fetch": "https://www.liquid.ai/lfm-license",
+        "select": [
+          "h1",
+          ".legal-rich-text"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "3f587850c66299f20cbea234833500e0792bed98"
+      }
+    ]
+  }
+}
