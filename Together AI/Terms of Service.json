@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T19:09:54.280Z",
+    "serviceName": "Together AI",
+    "sourceDocuments": [
+      {
+        "id": "terms-of-service",
+        "fetch": "https://www.together.ai/terms-of-service",
+        "select": [
+          ".main-wrapper"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "23252e3211605a2b6974ecd1a01fde2d394d3663"
+      }
+    ]
+  }
+}
