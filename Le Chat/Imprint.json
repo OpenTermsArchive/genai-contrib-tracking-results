@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T19:05:58.867Z",
+    "serviceName": "Le Chat",
+    "sourceDocuments": [
+      {
+        "id": "legal",
+        "fetch": "https://mistral.ai/legal/",
+        "select": [
+          "section"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "d4da8175a19ea3b580146ac99262311ce376d973"
+      }
+    ]
+  }
+}
