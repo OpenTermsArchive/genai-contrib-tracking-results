@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T19:03:26.786Z",
+    "serviceName": "DeepSeek",
+    "sourceDocuments": [
+      {
+        "id": "policies-en-US-cookies-policy",
+        "fetch": "https://cdn.deepseek.com/policies/en-US/cookies-policy.html",
+        "select": [
+          "#write"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "241af5ae664f9b85ea78e1c1359d6351a080680e"
+      }
+    ]
+  }
+}
