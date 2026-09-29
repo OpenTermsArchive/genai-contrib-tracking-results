@@ -1,0 +1,15 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T19:09:26.920Z",
+    "serviceName": "Sana",
+    "sourceDocuments": [
+      {
+        "id": "download-legal-policies-acceptable-use-policy",
+        "fetch": "https://sanalabs.com/download/legal/policies/acceptable-use-policy.pdf",
+        "mimeType": "application/pdf",
+        "snapshotId": "8004cd9ce66144d227f4b624901034ab1e0b0470"
+      }
+    ]
+  }
+}
