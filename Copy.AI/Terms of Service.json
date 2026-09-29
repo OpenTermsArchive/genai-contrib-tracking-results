@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T19:02:25.840Z",
+    "serviceName": "Copy.AI",
+    "sourceDocuments": [
+      {
+        "id": "terms-of-service",
+        "fetch": "https://www.copy.ai/terms-of-service",
+        "select": [
+          ".heading-01-hero",
+          ".rich-text"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "93f687137b50950cc28ce4ef1836ba30caa78738"
+      }
+    ]
+  }
+}
