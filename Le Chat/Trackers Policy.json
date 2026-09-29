@@ -1,0 +1,21 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-29T19:05:52.298Z",
+    "serviceName": "Le Chat",
+    "sourceDocuments": [
+      {
+        "id": "terms",
+        "fetch": "https://mistral.ai/terms/",
+        "select": [
+          "#cookie-policy"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "9f1e431f58957f49523cde821292bb2fa1dc96dc"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[\"#cookie-policy\"]\" has no match in the web page at 'https://mistral.ai/terms/'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
