@@ -1,0 +1,37 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T19:00:34.294Z",
+    "serviceName": "ChatGPT",
+    "sourceDocuments": [
+      {
+        "id": "policies-eu-privacy-policy",
+        "fetch": "https://openai.com/policies/eu-privacy-policy/",
+        "select": [
+          "main"
+        ],
+        "remove": [
+          "select[name=\"Locale Select\"]",
+          "main .sr-only"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "0a804f4a2bfec573a94fdec2b4c2cba99bc47404"
+      },
+      {
+        "id": "policies-how-your-data-is-used-to-improve-model-performance",
+        "fetch": "https://openai.com/policies/how-your-data-is-used-to-improve-model-performance/",
+        "select": [
+          "main"
+        ],
+        "remove": [
+          "select[name=\"Locale Select\"]",
+          "main .sr-only"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "90051f62a9c68990e16d75b51085198d00ad3058"
+      }
+    ]
+  }
+}
