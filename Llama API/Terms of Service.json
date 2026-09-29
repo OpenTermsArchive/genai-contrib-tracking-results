@@ -1,0 +1,56 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-29T19:06:26.812Z",
+    "serviceName": "Llama API",
+    "sourceDocuments": [
+      {
+        "id": "legal-terms-of-service",
+        "fetch": "https://llama.developer.meta.com/legal/terms-of-service",
+        "select": "[data-pagelet=\"LLMDCPageMainContent\"]",
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "20b37542c481751cb0fd3dd4ce3cae15f0f0d127"
+      },
+      {
+        "id": "legal-terms-data_security_terms",
+        "fetch": "https://www.facebook.com/legal/terms/data_security_terms",
+        "select": {
+          "startBefore": "[role=\"main\"]",
+          "endBefore": "[role=\"separator\"]"
+        },
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "5ec20f124b3355252cc139377b8f83d13cb6e4ef"
+      },
+      {
+        "id": "legal-terms-Meta-Global-Processor-Terms",
+        "fetch": "https://www.facebook.com/legal/terms/Meta-Global-Processor-Terms",
+        "select": {
+          "startBefore": "[role=\"main\"]",
+          "endAfter": "[style] ~ ol"
+        },
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "593b891fc2846f1eca4e537fa97139e786147ff4"
+      },
+      {
+        "id": "legal-terms-Meta-Global-Processor-Terms-Europe",
+        "fetch": "https://www.facebook.com/legal/terms/Meta-Global-Processor-Terms/Europe",
+        "select": {
+          "startBefore": "[role=\"main\"]",
+          "endAfter": "[style] ~ ol"
+        },
+        "filter": [
+          "removeTrackingIDs"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "3395bf4bd7eb6a1aced50f6a446ce3af4bd53a22"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[data-pagelet=\"LLMDCPageMainContent\"]\" has no match in the web page at 'https://llama.developer.meta.com/legal/terms-of-service'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
