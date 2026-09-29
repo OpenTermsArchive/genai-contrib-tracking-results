@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T19:00:04.462Z",
+    "serviceName": "Airon",
+    "sourceDocuments": [
+      {
+        "id": "legal-terms-and-conditions",
+        "fetch": "https://www.airon.ai/legal/terms-and-conditions",
+        "select": [
+          ".container-large"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "a77e2e2e3e3640290944c685584150939dfb316a"
+      }
+    ]
+  }
+}
