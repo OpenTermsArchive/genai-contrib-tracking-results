@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T19:03:59.954Z",
+    "serviceName": "GitHub Copilot",
+    "sourceDocuments": [
+      {
+        "id": "en-site-policy-privacy-policies-github-privacy-statement",
+        "fetch": "https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement",
+        "select": [
+          ".ArticleGridLayout_containerBox__lLLio"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "bff387ed5effbd89a4442b7024c3713eeb80131d"
+      }
+    ]
+  }
+}
