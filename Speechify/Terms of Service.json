@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T19:09:32.292Z",
+    "serviceName": "Speechify",
+    "sourceDocuments": [
+      {
+        "id": "terms",
+        "fetch": "https://speechify.com/terms",
+        "select": "main",
+        "mimeType": "text/html",
+        "snapshotId": "f4145c162acd78968329dc4a8337d418bea9fdfc"
+      }
+    ]
+  }
+}
