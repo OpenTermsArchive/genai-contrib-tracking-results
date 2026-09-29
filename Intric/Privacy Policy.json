@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T19:05:30.998Z",
+    "serviceName": "Intric",
+    "sourceDocuments": [
+      {
+        "id": "en-privacy-policy",
+        "fetch": "https://intric.ai/en/privacy-policy",
+        "select": [
+          "main"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "8986de0c52e30798a544f95858d40ba4457d760a"
+      }
+    ]
+  }
+}
