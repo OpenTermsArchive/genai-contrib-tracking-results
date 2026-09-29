@@ -1,0 +1,24 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-29T19:04:14.763Z",
+    "serviceName": "Grok",
+    "sourceDocuments": [
+      {
+        "id": "legal-terms-of-service",
+        "fetch": "https://x.ai/legal/terms-of-service",
+        "select": [
+          "body > header + section"
+        ],
+        "remove": [
+          "[href=\"/legal\"]:first-child"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "d18255c67def2e812f19d9a3b487d4ba82cbd159"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[\"body > header + section\"]\" has no match in the web page at 'https://x.ai/legal/terms-of-service'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
