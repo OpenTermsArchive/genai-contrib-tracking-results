@@ -1,0 +1,24 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-29T19:05:27.562Z",
+    "serviceName": "Grok",
+    "sourceDocuments": [
+      {
+        "id": "legal-brand-guidelines",
+        "fetch": "https://x.ai/legal/brand-guidelines",
+        "select": [
+          "body > header + section"
+        ],
+        "remove": [
+          "[href=\"/legal\"]:first-child"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "498d7e5bcc1c12b2c887b7041c82e27095e67fe9"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[\"body > header + section\"]\" has no match in the web page at 'https://x.ai/legal/brand-guidelines'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
