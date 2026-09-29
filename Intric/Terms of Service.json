@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T19:05:29.855Z",
+    "serviceName": "Intric",
+    "sourceDocuments": [
+      {
+        "id": "en-terms-and-conditions",
+        "fetch": "https://intric.ai/en/terms-and-conditions",
+        "select": [
+          "main"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "02608495db05c7a7b11c805e39f6e4477a2a52e9"
+      }
+    ]
+  }
+}
