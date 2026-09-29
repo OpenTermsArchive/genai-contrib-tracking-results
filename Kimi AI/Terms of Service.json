@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T19:05:44.508Z",
+    "serviceName": "Kimi",
+    "sourceDocuments": [
+      {
+        "id": "user-agreement-modelUse",
+        "fetch": "https://kimi.ai/user/agreement/modelUse",
+        "select": [
+          ".markdown"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "ad6770221eade131481bdee0a04eff42befbe821"
+      }
+    ]
+  }
+}
