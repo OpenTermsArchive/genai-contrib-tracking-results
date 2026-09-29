@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T19:09:18.412Z",
+    "serviceName": "SambaNova Systems",
+    "sourceDocuments": [
+      {
+        "id": "terms-and-conditions",
+        "fetch": "https://sambanova.ai/terms-and-conditions",
+        "select": [
+          "main"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "b31682167e0cde68f484adb9be4e10638a28f398"
+      }
+    ]
+  }
+}
