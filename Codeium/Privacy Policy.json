@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T19:02:25.225Z",
+    "serviceName": "Codeium",
+    "sourceDocuments": [
+      {
+        "id": "privacy-policy",
+        "fetch": "https://codeium.com/privacy-policy",
+        "select": [
+          "article"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "ebf85aec47e82429f84f7921644325290c62792d"
+      }
+    ]
+  }
+}
