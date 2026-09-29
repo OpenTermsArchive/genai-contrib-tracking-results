@@ -1,0 +1,22 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-29T19:09:46.183Z",
+    "serviceName": "Tandem Health",
+    "sourceDocuments": [
+      {
+        "id": "privacy-policy",
+        "fetch": "https://www.tandemhealth.ai/privacy-policy",
+        "select": [
+          ".container"
+        ],
+        "executeClientScripts": true,
+        "mimeType": null,
+        "snapshotId": null
+      }
+    ],
+    "reasons": [
+      "[fetch] Fetch failed: Received HTTP code 404 when trying to fetch 'https://www.tandemhealth.ai/privacy-policy'"
+    ]
+  }
+}
