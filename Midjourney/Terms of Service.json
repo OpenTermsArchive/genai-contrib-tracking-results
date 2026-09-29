@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T19:07:40.352Z",
+    "serviceName": "Midjourney",
+    "sourceDocuments": [
+      {
+        "id": "docs-terms-of-service",
+        "fetch": "https://docs.midjourney.com/docs/terms-of-service",
+        "select": "article",
+        "mimeType": "text/html",
+        "snapshotId": "48a5b5266165f414952c752acde614bbe39931b1"
+      }
+    ]
+  }
+}
