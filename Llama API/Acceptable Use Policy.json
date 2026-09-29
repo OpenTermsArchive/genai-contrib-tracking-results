@@ -1,0 +1,20 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-29T19:06:39.291Z",
+    "serviceName": "Llama API",
+    "sourceDocuments": [
+      {
+        "id": "legal-acceptable-use-policy",
+        "fetch": "https://llama.developer.meta.com/legal/acceptable-use-policy",
+        "select": "[data-pagelet=\"LLMDCPageMainContent\"]",
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "24a57b044c7b9003b8b8029b06d58366d005424a"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[data-pagelet=\"LLMDCPageMainContent\"]\" has no match in the web page at 'https://llama.developer.meta.com/legal/acceptable-use-policy'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
