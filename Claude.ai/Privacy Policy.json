@@ -1,0 +1,27 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T19:02:13.312Z",
+    "serviceName": "Claude.ai",
+    "sourceDocuments": [
+      {
+        "id": "legal-privacy",
+        "fetch": "https://www.anthropic.com/legal/privacy",
+        "select": [
+          "main"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "67f31b63e765b6ffa08c608d025e25d8b4f1b217"
+      },
+      {
+        "id": "legal-non-user-privacy-policy",
+        "fetch": "https://www.anthropic.com/legal/non-user-privacy-policy",
+        "select": [
+          "main"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "750bfb09e100cbeba685433145d23da9a9a965eb"
+      }
+    ]
+  }
+}
