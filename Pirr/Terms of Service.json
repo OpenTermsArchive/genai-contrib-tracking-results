@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T19:08:20.820Z",
+    "serviceName": "Pirr",
+    "sourceDocuments": [
+      {
+        "id": "terms-and-conditions",
+        "fetch": "https://www.pirr.ai/terms-and-conditions",
+        "select": [
+          ".container"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "42000080a1210db0d716b64480b8d7553065c71f"
+      }
+    ]
+  }
+}
