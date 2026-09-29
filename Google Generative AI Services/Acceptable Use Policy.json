@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T19:04:02.218Z",
+    "serviceName": "Google Generative AI Services",
+    "sourceDocuments": [
+      {
+        "id": "terms-generative-ai-use-policy",
+        "fetch": "https://policies.google.com/terms/generative-ai/use-policy?hl=en-GB&gl=IE",
+        "select": [
+          "[role=\"article\"]"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "814d2833ab667e18f495199e98fec0abc419e3ba"
+      }
+    ]
+  }
+}
