@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T19:07:32.205Z",
+    "serviceName": "Lovable",
+    "sourceDocuments": [
+      {
+        "id": "privacy",
+        "fetch": "https://lovable.dev/privacy",
+        "select": [
+          ".container"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "8c13d3fe631e9e536de7fbb12b8b7f5a37fea5f9"
+      }
+    ]
+  }
+}
