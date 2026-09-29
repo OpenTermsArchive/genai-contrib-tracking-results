@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T19:00:05.707Z",
+    "serviceName": "Airon",
+    "sourceDocuments": [
+      {
+        "id": "legal-privacy-policy",
+        "fetch": "https://www.airon.ai/legal/privacy-policy",
+        "select": [
+          ".container-large"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "83d11e9b4bc743a9842e2cbb0176bff4de716c7d"
+      }
+    ]
+  }
+}
