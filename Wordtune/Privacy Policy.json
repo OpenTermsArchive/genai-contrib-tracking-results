@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T19:10:26.189Z",
+    "serviceName": "Wordtune",
+    "sourceDocuments": [
+      {
+        "id": "privacy-policy",
+        "fetch": "https://www.wordtune.com/privacy-policy",
+        "select": [
+          ".main"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "662b0ba47d36efa6bf5ce8b852a556f99850e3f5"
+      }
+    ]
+  }
+}
