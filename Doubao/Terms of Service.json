@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T19:03:29.671Z",
+    "serviceName": "豆包",
+    "sourceDocuments": [
+      {
+        "id": "legal-terms",
+        "fetch": "https://www.doubao.com/legal/terms",
+        "select": [
+          ".draft-container"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "012fa8acaae3b7a8c05e3fb83584e2d3e63e5445"
+      }
+    ]
+  }
+}
