@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T19:00:16.596Z",
+    "serviceName": "Bolt.new",
+    "sourceDocuments": [
+      {
+        "id": "privacy-policy",
+        "fetch": "https://stackblitz.com/privacy-policy",
+        "select": [
+          ".static-page"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "166eea9eb087c3d16f3e8da81820f22b02d81520"
+      }
+    ]
+  }
+}
