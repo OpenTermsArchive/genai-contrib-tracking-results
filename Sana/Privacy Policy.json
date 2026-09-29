@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T19:09:24.079Z",
+    "serviceName": "Sana",
+    "sourceDocuments": [
+      {
+        "id": "legal-privacy-notice",
+        "fetch": "https://sanalabs.com/legal/privacy-notice/",
+        "select": [
+          ".wrap"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "2597bb698cce0efb71da660890b2cd8e5effd8a1"
+      }
+    ]
+  }
+}
