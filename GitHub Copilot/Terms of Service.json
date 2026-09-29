@@ -1,0 +1,36 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T19:03:59.301Z",
+    "serviceName": "GitHub Copilot",
+    "sourceDocuments": [
+      {
+        "id": "en-site-policy-github-terms-github-terms-of-service",
+        "fetch": "https://docs.github.com/en/site-policy/github-terms/github-terms-of-service",
+        "select": [
+          "#title-h1",
+          ".markdown-body"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "935dcc2a976d1070cd9b7c363cbdc9c107c52ebf"
+      },
+      {
+        "id": "en-site-policy-github-terms-github-terms-for-additional-products-and-features",
+        "fetch": "https://docs.github.com/en/site-policy/github-terms/github-terms-for-additional-products-and-features",
+        "select": [
+          "#title-h1",
+          {
+            "startBefore": ".markdown-body",
+            "endBefore": ".markdown-body > h2:first-of-type"
+          },
+          {
+            "startBefore": "#github-copilot",
+            "endBefore": "#github-copilot ~ h2"
+          }
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "fa8a4832a7d58c102ef2a032d32e2b506ae82487"
+      }
+    ]
+  }
+}
