@@ -1,0 +1,22 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-29T19:08:02.752Z",
+    "serviceName": "OpenRouter",
+    "sourceDocuments": [
+      {
+        "id": "terms",
+        "fetch": "https://openrouter.ai/terms",
+        "select": [
+          ".main-content-container"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "47c648ccd6cea7460662a2b0ad76ba9b13690474"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[\".main-content-container\"]\" has no match in the web page at 'https://openrouter.ai/terms'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
