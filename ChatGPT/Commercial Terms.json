@@ -1,0 +1,23 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T19:01:28.356Z",
+    "serviceName": "ChatGPT",
+    "sourceDocuments": [
+      {
+        "id": "policies-services-agreement",
+        "fetch": "https://openai.com/policies/services-agreement/",
+        "select": [
+          "main"
+        ],
+        "remove": [
+          "select[name=\"Locale Select\"]",
+          "main .sr-only"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "0edab605ec7de82fd54edf4c9b0716bee0cfa47e"
+      }
+    ]
+  }
+}
