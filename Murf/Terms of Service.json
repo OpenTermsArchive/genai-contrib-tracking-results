@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T19:07:47.327Z",
+    "serviceName": "Murf",
+    "sourceDocuments": [
+      {
+        "id": "resources-terms_of_service",
+        "fetch": "https://murf.ai/resources/terms_of_service/",
+        "select": [
+          ".main-wrapper"
+        ],
+        "remove": ".blog_toc-wrapper",
+        "mimeType": "text/html",
+        "snapshotId": "f0414e74c60df50f48de00e267395776df771dd4"
+      }
+    ]
+  }
+}
