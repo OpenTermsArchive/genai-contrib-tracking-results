@@ -1,0 +1,19 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-29T19:07:50.384Z",
+    "serviceName": "Nous Research chat",
+    "sourceDocuments": [
+      {
+        "id": "privacy",
+        "fetch": "https://portal.nousresearch.com/privacy",
+        "select": "main:not([class*=\"hidden\"]) main .terms-container",
+        "mimeType": "text/html",
+        "snapshotId": "9d437fb8a61eb3d3bfbfdb4ab9fc2faaf36bdb33"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"main:not([class*=\"hidden\"]) main .terms-container\" has no match in the web page at 'https://portal.nousresearch.com/privacy'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
