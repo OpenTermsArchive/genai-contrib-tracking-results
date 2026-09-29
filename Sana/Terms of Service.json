@@ -1,0 +1,15 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T19:09:21.966Z",
+    "serviceName": "Sana",
+    "sourceDocuments": [
+      {
+        "id": "download-legal-master-services-agreement",
+        "fetch": "https://sanalabs.com/download/legal/master-services-agreement.pdf",
+        "mimeType": "application/pdf",
+        "snapshotId": "0ff9f8c41ea540d2e1237cc3f8d32cd235e525a4"
+      }
+    ]
+  }
+}
