@@ -1,0 +1,21 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-29T19:09:30.367Z",
+    "serviceName": "Scribe",
+    "sourceDocuments": [
+      {
+        "id": "legal-cookies",
+        "fetch": "https://scribehow.com/legal/cookies",
+        "select": [
+          ".legal-container"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "01f0efe7612d6b8d21d53ea9a6e9d733941b421e"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[\".legal-container\"]\" has no match in the web page at 'https://scribehow.com/legal/cookies'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
