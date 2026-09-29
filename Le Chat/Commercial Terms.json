@@ -1,0 +1,21 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-29T19:05:52.912Z",
+    "serviceName": "Le Chat",
+    "sourceDocuments": [
+      {
+        "id": "terms",
+        "fetch": "https://mistral.ai/terms/",
+        "select": [
+          "#partner-served-deployment-terms"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "7b9ae1050a3f95c3a1d19fe89605bce90f1274c8"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[\"#partner-served-deployment-terms\"]\" has no match in the web page at 'https://mistral.ai/terms/'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
