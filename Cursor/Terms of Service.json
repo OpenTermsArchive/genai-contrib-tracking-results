@@ -1,0 +1,22 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-29T19:02:38.231Z",
+    "serviceName": "Cursor",
+    "sourceDocuments": [
+      {
+        "id": "terms-of-service",
+        "fetch": "https://www.cursor.com/terms-of-service",
+        "select": [
+          ".page"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "46b207265a91daf13936bbadc0280303d01dba5d"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[\".page\"]\" has no match in the web page at 'https://www.cursor.com/terms-of-service'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
