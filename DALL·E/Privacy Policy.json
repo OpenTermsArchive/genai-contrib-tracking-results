@@ -1,0 +1,22 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T19:03:01.458Z",
+    "serviceName": "DALL·E",
+    "sourceDocuments": [
+      {
+        "id": "policies-eu-privacy-policy",
+        "fetch": "https://openai.com/policies/eu-privacy-policy/",
+        "select": [
+          "main"
+        ],
+        "remove": [
+          "select[name=\"Locale Select\"]"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "f7df6694707f57ca4c2fae7579ddb3cd1d928c5b"
+      }
+    ]
+  }
+}
