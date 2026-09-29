@@ -1,0 +1,22 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T19:03:16.571Z",
+    "serviceName": "DALL·E",
+    "sourceDocuments": [
+      {
+        "id": "policies-data-processing-addendum",
+        "fetch": "https://openai.com/policies/data-processing-addendum",
+        "select": [
+          "main"
+        ],
+        "remove": [
+          "select[name=\"Locale Select\"]"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "ab25579b068fc469994be773c68cb7837044c3bb"
+      }
+    ]
+  }
+}
