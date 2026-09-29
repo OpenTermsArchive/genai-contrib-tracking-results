@@ -1,0 +1,22 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-29T19:10:26.626Z",
+    "serviceName": "Incredible",
+    "sourceDocuments": [
+      {
+        "id": "policy-terms-and-conditions",
+        "fetch": "https://web.incredible.one/policy/terms-and-conditions",
+        "select": [
+          "main"
+        ],
+        "executeClientScripts": true,
+        "mimeType": null,
+        "snapshotId": null
+      }
+    ],
+    "reasons": [
+      "[fetch] Fetch failed: net::ERR_NAME_NOT_RESOLVED at https://web.incredible.one/policy/terms-and-conditions"
+    ]
+  }
+}
