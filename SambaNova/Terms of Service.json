@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "event": {
-    "date": "2026-10-01T07:11:10.284Z",
+    "date": "2026-10-01T19:09:11.034Z",
     "serviceName": "SambaNova Systems",
     "sourceDocuments": [
       {
@@ -12,13 +12,8 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "731526b48d8e2f1a6e43a998adbca6ee6a1c53ec"
+        "snapshotId": "ea484072ae95c17022f82248c70092acea83e6a9"
       }
-    ],
-    "transientError": {
-      "reasons": [
-        "[fetch] Fetch failed: Timed out after 30 seconds when trying to fetch 'https://sambanova.ai/terms-and-conditions'"
-      ]
-    }
+    ]
   }
 }
