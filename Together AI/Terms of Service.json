@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "event": {
-    "date": "2026-10-01T07:11:14.398Z",
+    "date": "2026-10-01T19:09:47.816Z",
     "serviceName": "Together AI",
     "sourceDocuments": [
       {
@@ -12,13 +12,8 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "2da4e6d1a925a2c456c2670228decf8fd359d8a7"
+        "snapshotId": "db1c3148393aa341d62e3b3d05f93e946d944c9b"
       }
-    ],
-    "transientError": {
-      "reasons": [
-        "[fetch] Fetch failed: Timed out after 30 seconds when trying to fetch 'https://www.together.ai/terms-of-service'"
-      ]
-    }
+    ]
   }
 }
