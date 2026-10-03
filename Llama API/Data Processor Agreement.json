@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "event": {
-    "date": "2026-10-01T07:07:14.796Z",
+    "date": "2026-10-03T19:10:12.709Z",
     "serviceName": "Llama API",
     "sourceDocuments": [
       {
@@ -11,8 +11,13 @@
         "remove": "#ssrb_root_content",
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "baeca3f12034b4cd9717dc9dd85d799ef0dfdb8a"
+        "snapshotId": "2e9ac5f09a194dfb64f4d517a7959970426936c1"
       }
-    ]
+    ],
+    "transientError": {
+      "reasons": [
+        "[fetch] Fetch failed: Received HTTP code 500 when trying to fetch 'https://forwork.meta.com/fr/en/legal/mfw-subprocessor-list/'"
+      ]
+    }
   }
 }
