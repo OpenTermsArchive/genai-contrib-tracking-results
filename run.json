@@ -4,9 +4,9 @@
   "schedule": "30 */12 * * *",
   "lastRun": {
     "startDate": "2026-10-05T19:00:02.198Z",
-    "endDate": null,
+    "endDate": "2026-10-05T19:10:33.296Z",
     "engineVersion": "16.2.0",
-    "status": "in_progress"
+    "status": "completed"
   },
   "declarations": {
     "commit": "a629822d14ed08ed804391ae3fac2e35a45dbc06",
@@ -14,17 +14,27 @@
     "terms": 141
   },
   "tracked": {
-    "ok": 0,
-    "failed": 0
+    "ok": 92,
+    "failed": 49
   },
   "coverage": {
-    "processed": 0,
+    "processed": 141,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [],
+    "newFailures": [
+      {
+        "serviceId": "Le Chat",
+        "termsType": "Imprint"
+      }
+    ],
     "recoveries": [],
-    "reasonChanges": []
+    "reasonChanges": [
+      {
+        "serviceId": "Tandem Health",
+        "termsType": "Privacy Policy"
+      }
+    ]
   },
   "transientErrors": 0
 }
