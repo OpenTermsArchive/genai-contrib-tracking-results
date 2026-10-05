@@ -1,7 +1,7 @@
 {
-  "status": "ok",
+  "status": "failed",
   "event": {
-    "date": "2026-09-29T19:05:58.867Z",
+    "date": "2026-10-05T19:05:47.148Z",
     "serviceName": "Le Chat",
     "sourceDocuments": [
       {
@@ -10,9 +10,12 @@
         "select": [
           "section"
         ],
-        "mimeType": "text/html",
-        "snapshotId": "d4da8175a19ea3b580146ac99262311ce376d973"
+        "mimeType": null,
+        "snapshotId": null
       }
+    ],
+    "reasons": [
+      "[fetch] Fetch failed: Received HTTP code 404 when trying to fetch 'https://mistral.ai/legal/'"
     ]
   }
 }
