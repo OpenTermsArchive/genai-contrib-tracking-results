@@ -1,7 +1,7 @@
 {
   "status": "failed",
   "event": {
-    "date": "2026-09-29T19:09:46.183Z",
+    "date": "2026-10-05T19:09:45.497Z",
     "serviceName": "Tandem Health",
     "sourceDocuments": [
       {
@@ -11,12 +11,12 @@
           ".container"
         ],
         "executeClientScripts": true,
-        "mimeType": null,
-        "snapshotId": null
+        "mimeType": "text/html",
+        "snapshotId": "c214207cb7d4a4e658da0189622c5af7a9b87d07"
       }
     ],
     "reasons": [
-      "[fetch] Fetch failed: Received HTTP code 404 when trying to fetch 'https://www.tandemhealth.ai/privacy-policy'"
+      "[extraction] Extract failed: The provided selector \"[\".container\"]\" has no match in the web page at 'https://www.tandemhealth.ai/privacy-policy'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
     ]
   }
 }
