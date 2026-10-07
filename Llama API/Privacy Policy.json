@@ -1,7 +1,7 @@
 {
   "status": "failed",
   "event": {
-    "date": "2026-09-29T19:07:02.988Z",
+    "date": "2026-10-07T19:06:46.887Z",
     "serviceName": "Llama API",
     "sourceDocuments": [
       {
@@ -9,8 +9,8 @@
         "fetch": "https://llama.developer.meta.com/docs/trust/data-commitments",
         "select": "[data-pagelet=\"LLMDCPageMainContent\"]",
         "executeClientScripts": true,
-        "mimeType": "text/html",
-        "snapshotId": "bc89898b709d58e1d73c74217a8c435a185c06a2"
+        "mimeType": null,
+        "snapshotId": null
       },
       {
         "id": "privacy-policy-printable",
@@ -30,11 +30,11 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "728c27e07a5bea52becb4df6c086570854de7faf"
+        "snapshotId": "9eabdf64e0e4301f231a9f02b2184c048b365671"
       }
     ],
     "reasons": [
-      "[extraction] Extract failed: The provided selector \"[data-pagelet=\"LLMDCPageMainContent\"]\" has no match in the web page at 'https://llama.developer.meta.com/docs/trust/data-commitments'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+      "[fetch] Fetch failed: Received HTTP code 404 when trying to fetch 'https://llama.developer.meta.com/docs/trust/data-commitments'"
     ]
   }
 }
