@@ -1,12 +1,12 @@
 {
-  "runId": "ota-run-35826e94-40d1-4fc8-abbb-9017e27dedde",
+  "runId": "ota-run-ff25dcb5-35b3-4ba0-a8c8-c015ce7cf568",
   "collectionId": "genai-contrib",
   "schedule": "30 */12 * * *",
   "lastRun": {
-    "startDate": "2026-10-07T19:00:01.887Z",
-    "endDate": "2026-10-07T19:10:30.506Z",
+    "startDate": "2026-10-08T07:00:01.792Z",
+    "endDate": null,
     "engineVersion": "16.3.0",
-    "status": "completed"
+    "status": "in_progress"
   },
   "declarations": {
     "commit": "423395dc4b174aac4d383a5e7c728dc8889cbb99",
@@ -14,22 +14,17 @@
     "terms": 141
   },
   "tracked": {
-    "ok": 92,
-    "failed": 49
+    "ok": 0,
+    "failed": 0
   },
   "coverage": {
-    "processed": 141,
+    "processed": 0,
     "skipped": []
   },
   "transitions": {
     "newFailures": [],
     "recoveries": [],
-    "reasonChanges": [
-      {
-        "serviceId": "Llama API",
-        "termsType": "Privacy Policy"
-      }
-    ]
+    "reasonChanges": []
   },
   "transientErrors": 0
 }
