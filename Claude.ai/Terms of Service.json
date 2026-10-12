@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "event": {
-    "date": "2026-10-12T07:10:01.622Z",
+    "date": "2026-10-12T19:02:03.022Z",
     "serviceName": "Claude.ai",
     "sourceDocuments": [
       {
@@ -11,13 +11,8 @@
           "main"
         ],
         "mimeType": "text/html",
-        "snapshotId": "ac328ef4f9b34dbd4e3c2952687b7fcc8012e448"
+        "snapshotId": "c09f34545ea67c7155352b51b88d7e08618ede1f"
       }
-    ],
-    "transientError": {
-      "reasons": [
-        "[fetch] Fetch failed: Network system error ETIMEDOUT occurred when trying to fetch 'https://www.anthropic.com/legal/consumer-terms'"
-      ]
-    }
+    ]
   }
 }
