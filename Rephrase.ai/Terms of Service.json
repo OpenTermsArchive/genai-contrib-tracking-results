@@ -1,7 +1,7 @@
 {
   "status": "failed",
   "event": {
-    "date": "2026-09-29T19:08:50.555Z",
+    "date": "2026-10-15T07:08:25.473Z",
     "serviceName": "Rephrase.ai",
     "sourceDocuments": [
       {
@@ -11,12 +11,12 @@
           ".heading-pageheader",
           ".policypg"
         ],
-        "mimeType": null,
-        "snapshotId": null
+        "mimeType": "text/html",
+        "snapshotId": "8c0d7acbb75d0d42136d89d1e7f4f6685fb77676"
       }
     ],
     "reasons": [
-      "[fetch] Fetch failed: Network system error ENOTFOUND occurred when trying to fetch 'https://www.rephrase.ai/terms-of-service'"
+      "[extraction] Extract failed: The provided selector \"[\".heading-pageheader\",\".policypg\"]\" has no match in the web page at 'https://www.rephrase.ai/terms-of-service'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
     ]
   }
 }
