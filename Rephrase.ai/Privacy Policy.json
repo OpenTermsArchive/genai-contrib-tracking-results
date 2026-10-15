@@ -1,7 +1,7 @@
 {
   "status": "failed",
   "event": {
-    "date": "2026-09-29T19:08:50.468Z",
+    "date": "2026-10-15T07:08:24.741Z",
     "serviceName": "Rephrase.ai",
     "sourceDocuments": [
       {
@@ -11,12 +11,12 @@
           ".heading-pageheader",
           ".policypg"
         ],
-        "mimeType": null,
-        "snapshotId": null
+        "mimeType": "text/html",
+        "snapshotId": "d106303c60366e3be69c56b309a3fcf3d4d92a2f"
       }
     ],
     "reasons": [
-      "[fetch] Fetch failed: Network system error ENOTFOUND occurred when trying to fetch 'https://www.rephrase.ai/privacy-policy'"
+      "[extraction] Extract failed: The provided selector \"[\".heading-pageheader\",\".policypg\"]\" has no match in the web page at 'https://www.rephrase.ai/privacy-policy'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
     ]
   }
 }
