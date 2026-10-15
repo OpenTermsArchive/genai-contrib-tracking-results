@@ -1,7 +1,7 @@
 {
   "status": "failed",
   "event": {
-    "date": "2026-09-29T19:10:31.594Z",
+    "date": "2026-10-15T07:08:37.083Z",
     "serviceName": "Rephrase.ai",
     "sourceDocuments": [
       {
@@ -12,12 +12,12 @@
           ".iub_content"
         ],
         "executeClientScripts": true,
-        "mimeType": null,
-        "snapshotId": null
+        "mimeType": "text/html",
+        "snapshotId": "c777b22536efe167d54725a25850cd3a23087c1f"
       }
     ],
     "reasons": [
-      "[fetch] Fetch failed: net::ERR_NAME_NOT_RESOLVED at https://www.rephrase.ai/cookie-policy"
+      "[extraction] Extract failed: The provided selector \"[\".heading-pageheader\",\".iub_content\"]\" has no match in the web page at 'https://www.rephrase.ai/cookie-policy'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
     ]
   }
 }
