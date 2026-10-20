@@ -1,7 +1,7 @@
 {
-  "status": "ok",
+  "status": "failed",
   "event": {
-    "date": "2026-09-29T19:01:18.807Z",
+    "date": "2026-10-20T19:14:13.787Z",
     "serviceName": "ChatGPT",
     "sourceDocuments": [
       {
@@ -15,9 +15,12 @@
           "main .sr-only"
         ],
         "executeClientScripts": true,
-        "mimeType": "text/html",
-        "snapshotId": "279696c36cb5b797e3ce4e01e3d4a408a4169116"
+        "mimeType": null,
+        "snapshotId": null
       }
+    ],
+    "reasons": [
+      "[fetch] Fetch failed: Timed out after 30 seconds when trying to fetch 'https://openai.com/policies/service-credit-terms/'"
     ]
   }
 }
