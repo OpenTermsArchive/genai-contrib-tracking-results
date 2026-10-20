@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "event": {
-    "date": "2026-09-29T19:02:09.764Z",
+    "date": "2026-10-20T07:10:30.449Z",
     "serviceName": "Civitai",
     "sourceDocuments": [
       {
@@ -12,8 +12,13 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "0b9cf388e69bb531f5d07309db29b82ca65da50a"
+        "snapshotId": "adc07412e97ca8071b70412168c11bcce5d0fd05"
       }
-    ]
+    ],
+    "transientError": {
+      "reasons": [
+        "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://civitai.com/content/privacy'"
+      ]
+    }
   }
 }
