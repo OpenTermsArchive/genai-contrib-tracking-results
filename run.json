@@ -4,9 +4,9 @@
   "schedule": "30 */12 * * *",
   "lastRun": {
     "startDate": "2026-10-20T19:00:01.769Z",
-    "endDate": null,
+    "endDate": "2026-10-20T19:15:19.240Z",
     "engineVersion": "16.3.0",
-    "status": "in_progress"
+    "status": "completed"
   },
   "declarations": {
     "commit": "423395dc4b174aac4d383a5e7c728dc8889cbb99",
@@ -14,17 +14,39 @@
     "terms": 141
   },
   "tracked": {
-    "ok": 0,
-    "failed": 0
+    "ok": 89,
+    "failed": 52
   },
   "coverage": {
-    "processed": 0,
+    "processed": 141,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [],
+    "newFailures": [
+      {
+        "serviceId": "ChatGPT",
+        "termsType": "Developer Terms"
+      },
+      {
+        "serviceId": "ChatGPT",
+        "termsType": "In-App Purchases Policy"
+      },
+      {
+        "serviceId": "ChatGPT",
+        "termsType": "Vulnerability Disclosure Policy"
+      },
+      {
+        "serviceId": "DALL·E",
+        "termsType": "Developer Terms"
+      }
+    ],
     "recoveries": [],
-    "reasonChanges": []
+    "reasonChanges": [
+      {
+        "serviceId": "ChatGPT",
+        "termsType": "Acceptable Use Policy"
+      }
+    ]
   },
-  "transientErrors": 0
+  "transientErrors": 1
 }
