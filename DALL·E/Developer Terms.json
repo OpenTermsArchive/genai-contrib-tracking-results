@@ -1,7 +1,7 @@
 {
-  "status": "ok",
+  "status": "failed",
   "event": {
-    "date": "2026-09-29T19:03:06.455Z",
+    "date": "2026-10-20T19:15:15.065Z",
     "serviceName": "DALL·E",
     "sourceDocuments": [
       {
@@ -14,9 +14,12 @@
           "select[name=\"Locale Select\"]"
         ],
         "executeClientScripts": true,
-        "mimeType": "text/html",
-        "snapshotId": "0ace4aaf1cf475082bb040cfa0c343201e2f4413"
+        "mimeType": null,
+        "snapshotId": null
       }
+    ],
+    "reasons": [
+      "[fetch] Fetch failed: Timed out after 30 seconds when trying to fetch 'https://openai.com/policies/plugin-terms'"
     ]
   }
 }
