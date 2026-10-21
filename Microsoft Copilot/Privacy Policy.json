@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "event": {
-    "date": "2026-09-29T19:07:36.561Z",
+    "date": "2026-10-21T19:10:43.476Z",
     "serviceName": "Microsoft Copilot",
     "sourceDocuments": [
       {
@@ -23,8 +23,13 @@
           "#dvServicesAgreement"
         ],
         "mimeType": "text/html",
-        "snapshotId": "fd2fcbb44181c8ea5290a38d708d752e952daecf"
+        "snapshotId": "14211b947b34969cd650f94df32fa6ae797bc4c1"
       }
-    ]
+    ],
+    "transientError": {
+      "reasons": [
+        "[fetch] Fetch failed: Network system error ETIMEDOUT occurred when trying to fetch 'https://privacy.microsoft.com/en-ie/privacystatement'"
+      ]
+    }
   }
 }
