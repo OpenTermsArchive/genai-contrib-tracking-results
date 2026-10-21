@@ -1,12 +1,12 @@
 {
-  "runId": "ota-run-67ad8e4c-6b14-44c4-b44d-e7af9b8e217e",
+  "runId": "ota-run-d0d7fbef-de14-4e57-af2e-bc65b8a7f576",
   "collectionId": "genai-contrib",
   "schedule": "30 */12 * * *",
   "lastRun": {
-    "startDate": "2026-10-21T07:00:01.809Z",
-    "endDate": "2026-10-21T07:10:38.621Z",
+    "startDate": "2026-10-21T19:00:01.870Z",
+    "endDate": null,
     "engineVersion": "16.3.0",
-    "status": "completed"
+    "status": "in_progress"
   },
   "declarations": {
     "commit": "423395dc4b174aac4d383a5e7c728dc8889cbb99",
@@ -14,39 +14,17 @@
     "terms": 141
   },
   "tracked": {
-    "ok": 93,
-    "failed": 48
+    "ok": 0,
+    "failed": 0
   },
   "coverage": {
-    "processed": 141,
+    "processed": 0,
     "skipped": []
   },
   "transitions": {
     "newFailures": [],
-    "recoveries": [
-      {
-        "serviceId": "ChatGPT",
-        "termsType": "Developer Terms"
-      },
-      {
-        "serviceId": "ChatGPT",
-        "termsType": "In-App Purchases Policy"
-      },
-      {
-        "serviceId": "ChatGPT",
-        "termsType": "Vulnerability Disclosure Policy"
-      },
-      {
-        "serviceId": "DALL·E",
-        "termsType": "Developer Terms"
-      }
-    ],
-    "reasonChanges": [
-      {
-        "serviceId": "ChatGPT",
-        "termsType": "Acceptable Use Policy"
-      }
-    ]
+    "recoveries": [],
+    "reasonChanges": []
   },
   "transientErrors": 0
 }
