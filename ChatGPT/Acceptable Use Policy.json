@@ -1,7 +1,7 @@
 {
   "status": "failed",
   "event": {
-    "date": "2026-10-20T19:13:43.431Z",
+    "date": "2026-10-21T07:01:12.859Z",
     "serviceName": "ChatGPT",
     "sourceDocuments": [
       {
@@ -16,7 +16,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "f0abcb7ab6a99c4eb59fe7d0622d31da47295e62"
+        "snapshotId": "9ac6e41d70cffee90c3b37f6c2904c8fc3036340"
       },
       {
         "id": "policies-using-chatgpt-agent-in-line-with-our-policies",
@@ -30,7 +30,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "d96f6ee1d0271dc548832201b710a551d5c98bea"
+        "snapshotId": "01559f904ebc4e695d6c5c9f8b7919fd5f04d375"
       },
       {
         "id": "policies-creating-images-and-videos-in-line-with-our-policies",
@@ -44,7 +44,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "8aa97f1730457621107c32e29d46599e782d9b2f"
+        "snapshotId": "9c6627cc8dab1053e8b61086b26858460d268833"
       },
       {
         "id": "policies-sharing-publication-policy",
@@ -57,12 +57,12 @@
           "main .sr-only"
         ],
         "executeClientScripts": true,
-        "mimeType": null,
-        "snapshotId": null
+        "mimeType": "text/html",
+        "snapshotId": "f9300ab38552490f588d4b5a182d8331cc7b9cb9"
       }
     ],
     "reasons": [
-      "[fetch] Fetch failed: Timed out after 30 seconds when trying to fetch 'https://openai.com/policies/sharing-publication-policy/'"
+      "[extraction] Extract failed: The provided selector \"[\"main\"]\" has no match in the web page at 'https://openai.com/policies/creating-images-and-videos-in-line-with-our-policies/'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
     ]
   }
 }
