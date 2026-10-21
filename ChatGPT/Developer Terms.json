@@ -1,7 +1,7 @@
 {
-  "status": "failed",
+  "status": "ok",
   "event": {
-    "date": "2026-10-20T19:12:46.527Z",
+    "date": "2026-10-21T07:00:39.678Z",
     "serviceName": "ChatGPT",
     "sourceDocuments": [
       {
@@ -15,12 +15,9 @@
           "main .sr-only"
         ],
         "executeClientScripts": true,
-        "mimeType": null,
-        "snapshotId": null
+        "mimeType": "text/html",
+        "snapshotId": "ba04e2ac4d8a246e642ed098c38b592f8be54faa"
       }
-    ],
-    "reasons": [
-      "[fetch] Fetch failed: Received HTTP code 500 when trying to fetch 'https://openai.com/policies/connectors-actions-terms/'"
     ]
   }
 }
