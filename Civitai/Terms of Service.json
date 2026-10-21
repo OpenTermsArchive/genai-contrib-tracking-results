@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "event": {
-    "date": "2026-10-20T19:14:44.729Z",
+    "date": "2026-10-21T07:02:05.480Z",
     "serviceName": "Civitai",
     "sourceDocuments": [
       {
@@ -12,13 +12,8 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "1c658937bb6a16cce6812d79ea32de13cead3472"
+        "snapshotId": "68390194cbb5893a31476795f92dad52be2bd14d"
       }
-    ],
-    "transientError": {
-      "reasons": [
-        "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://civitai.com/content/tos'"
-      ]
-    }
+    ]
   }
 }
