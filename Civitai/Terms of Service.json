@@ -1,7 +1,7 @@
 {
-  "status": "failed",
+  "status": "ok",
   "event": {
-    "date": "2026-10-22T19:10:37.186Z",
+    "date": "2026-10-23T07:02:01.759Z",
     "serviceName": "Civitai",
     "sourceDocuments": [
       {
@@ -11,12 +11,9 @@
           ".mantine-Container-root"
         ],
         "executeClientScripts": true,
-        "mimeType": null,
-        "snapshotId": null
+        "mimeType": "text/html",
+        "snapshotId": "c8e952b4ca75441d743b2f26bc1b2e679a52d1af"
       }
-    ],
-    "reasons": [
-      "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://civitai.com/content/tos'"
     ]
   }
 }
