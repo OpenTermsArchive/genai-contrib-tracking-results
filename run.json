@@ -1,12 +1,12 @@
 {
-  "runId": "ota-run-32facd86-3867-44d8-88cc-632316220cff",
+  "runId": "ota-run-57430246-fea9-4e09-86b7-286b919e3ef8",
   "collectionId": "genai-contrib",
   "schedule": "30 */12 * * *",
   "lastRun": {
-    "startDate": "2026-10-23T19:00:01.895Z",
-    "endDate": "2026-10-23T19:10:34.459Z",
+    "startDate": "2026-10-24T07:00:01.884Z",
+    "endDate": null,
     "engineVersion": "16.3.0",
-    "status": "completed"
+    "status": "in_progress"
   },
   "declarations": {
     "commit": "423395dc4b174aac4d383a5e7c728dc8889cbb99",
@@ -14,20 +14,15 @@
     "terms": 141
   },
   "tracked": {
-    "ok": 92,
-    "failed": 49
+    "ok": 0,
+    "failed": 0
   },
   "coverage": {
-    "processed": 141,
+    "processed": 0,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [
-      {
-        "serviceId": "Civitai",
-        "termsType": "Terms of Service"
-      }
-    ],
+    "newFailures": [],
     "recoveries": [],
     "reasonChanges": []
   },
