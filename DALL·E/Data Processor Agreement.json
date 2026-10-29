@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "event": {
-    "date": "2026-09-29T19:03:16.571Z",
+    "date": "2026-10-29T07:10:54.764Z",
     "serviceName": "DALL·E",
     "sourceDocuments": [
       {
@@ -15,8 +15,13 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "ab25579b068fc469994be773c68cb7837044c3bb"
+        "snapshotId": "be3c161b0ff8d4e2b7a206decfa4fe35ea4004b8"
       }
-    ]
+    ],
+    "transientError": {
+      "reasons": [
+        "[fetch] Fetch failed: Timed out after 30 seconds when trying to fetch 'https://openai.com/policies/data-processing-addendum'"
+      ]
+    }
   }
 }
