@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "event": {
-    "date": "2026-11-01T07:11:01.179Z",
+    "date": "2026-11-01T19:00:31.815Z",
     "serviceName": "ChatGPT",
     "sourceDocuments": [
       {
@@ -16,7 +16,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "72a9f84c85c25006d429977e0fd3c6c684e83bb7"
+        "snapshotId": "6d26ffe7ab6b63d248b782097bb5f87b018f7c4a"
       },
       {
         "id": "policies-how-your-data-is-used-to-improve-model-performance",
@@ -30,13 +30,8 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "726364280fb15b8b51ed0a2e9a64ad55ceafe3f9"
+        "snapshotId": "a50b80c86987597b849359b2b2e3c46e40c68ade"
       }
-    ],
-    "transientError": {
-      "reasons": [
-        "[fetch] Fetch failed: Timed out after 30 seconds when trying to fetch 'https://openai.com/policies/how-your-data-is-used-to-improve-model-performance/'"
-      ]
-    }
+    ]
   }
 }
