@@ -1,7 +1,7 @@
 {
   "status": "failed",
   "event": {
-    "date": "2026-09-29T19:10:26.626Z",
+    "date": "2026-11-05T19:05:19.371Z",
     "serviceName": "Incredible",
     "sourceDocuments": [
       {
@@ -16,7 +16,7 @@
       }
     ],
     "reasons": [
-      "[fetch] Fetch failed: net::ERR_NAME_NOT_RESOLVED at https://web.incredible.one/policy/terms-and-conditions"
+      "[fetch] Fetch failed: Received HTTP code 404 when trying to fetch 'https://web.incredible.one/policy/terms-and-conditions'"
     ]
   }
 }
