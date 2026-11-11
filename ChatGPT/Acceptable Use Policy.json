@@ -1,7 +1,7 @@
 {
   "status": "failed",
   "event": {
-    "date": "2026-10-21T07:01:12.859Z",
+    "date": "2026-11-11T19:10:21.739Z",
     "serviceName": "ChatGPT",
     "sourceDocuments": [
       {
@@ -16,7 +16,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "9ac6e41d70cffee90c3b37f6c2904c8fc3036340"
+        "snapshotId": "cd9557c8a84916af158452b929c45713ac91f412"
       },
       {
         "id": "policies-using-chatgpt-agent-in-line-with-our-policies",
@@ -30,7 +30,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "01559f904ebc4e695d6c5c9f8b7919fd5f04d375"
+        "snapshotId": "0d65bf192e9e1f739331e48b81a2f7c1afead6f7"
       },
       {
         "id": "policies-creating-images-and-videos-in-line-with-our-policies",
@@ -43,8 +43,8 @@
           "main .sr-only"
         ],
         "executeClientScripts": true,
-        "mimeType": "text/html",
-        "snapshotId": "9c6627cc8dab1053e8b61086b26858460d268833"
+        "mimeType": null,
+        "snapshotId": null
       },
       {
         "id": "policies-sharing-publication-policy",
@@ -58,11 +58,11 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "f9300ab38552490f588d4b5a182d8331cc7b9cb9"
+        "snapshotId": "198947875bb8ffa1bd4203e677d3678178c58137"
       }
     ],
     "reasons": [
-      "[extraction] Extract failed: The provided selector \"[\"main\"]\" has no match in the web page at 'https://openai.com/policies/creating-images-and-videos-in-line-with-our-policies/'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+      "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://openai.com/policies/creating-images-and-videos-in-line-with-our-policies/'"
     ]
   }
 }
