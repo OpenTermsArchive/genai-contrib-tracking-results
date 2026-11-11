@@ -4,9 +4,9 @@
   "schedule": "30 */12 * * *",
   "lastRun": {
     "startDate": "2026-11-11T07:00:02.013Z",
-    "endDate": null,
+    "endDate": "2026-11-11T07:10:25.696Z",
     "engineVersion": "17.0.1",
-    "status": "in_progress"
+    "status": "completed"
   },
   "declarations": {
     "commit": "9e5fe59efbe01636ec36a93f5222abd6ca6ce319",
@@ -14,15 +14,24 @@
     "terms": 141
   },
   "tracked": {
-    "ok": 0,
-    "failed": 0
+    "ok": 91,
+    "failed": 50
   },
   "coverage": {
-    "processed": 0,
+    "processed": 141,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [],
+    "newFailures": [
+      {
+        "serviceId": "Civitai",
+        "termsType": "Terms of Service"
+      },
+      {
+        "serviceId": "Civitai",
+        "termsType": "Privacy Policy"
+      }
+    ],
     "recoveries": [],
     "reasonChanges": []
   },
