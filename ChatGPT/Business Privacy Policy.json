@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "event": {
-    "date": "2026-11-12T07:10:56.028Z",
+    "date": "2026-11-12T19:01:55.129Z",
     "serviceName": "ChatGPT",
     "sourceDocuments": [
       {
@@ -16,13 +16,8 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "09e282565dfa9887e2cb2200be2cd45bf7be630a"
+        "snapshotId": "cab6dbe2573d519e933f30ca3bb9913e78c1a0b5"
       }
-    ],
-    "transientError": {
-      "reasons": [
-        "[fetch] Fetch failed: Timed out after 30 seconds when trying to fetch 'https://openai.com/enterprise-privacy/'"
-      ]
-    }
+    ]
   }
 }
