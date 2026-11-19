@@ -1,7 +1,7 @@
 {
-  "status": "failed",
+  "status": "ok",
   "event": {
-    "date": "2026-11-16T07:10:13.850Z",
+    "date": "2026-11-19T19:02:06.938Z",
     "serviceName": "Civitai",
     "sourceDocuments": [
       {
@@ -11,12 +11,9 @@
           ".mantine-Container-root"
         ],
         "executeClientScripts": true,
-        "mimeType": null,
-        "snapshotId": null
+        "mimeType": "text/html",
+        "snapshotId": "ec5fceb7b4a3c4268597ac533b72f7999430679a"
       }
-    ],
-    "reasons": [
-      "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://civitai.com/content/privacy'"
     ]
   }
 }
