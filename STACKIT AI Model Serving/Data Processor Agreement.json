@@ -1,0 +1,15 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-11-25T19:09:18.541Z",
+    "serviceName": "STACKIT AI Model Serving",
+    "sourceDocuments": [
+      {
+        "id": "en-asset-download-34534-file-STACKIT_data_processing_agreement",
+        "fetch": "https://stackit.com/en/asset/download/34534/file/STACKIT_data_processing_agreement.pdf",
+        "mimeType": "application/pdf",
+        "snapshotId": "d80cb5ec83855b668f264fa15707f1ba20e037db"
+      }
+    ]
+  }
+}
