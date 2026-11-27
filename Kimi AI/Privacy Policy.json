@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "event": {
-    "date": "2026-11-27T07:11:47.636Z",
+    "date": "2026-11-27T19:05:50.441Z",
     "serviceName": "Kimi",
     "sourceDocuments": [
       {
@@ -12,13 +12,8 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "4ed9a22b7e4ef9a62a5776a96828b291e22c8da2"
+        "snapshotId": "2620367ca75b81cb77a93aaefcdb5e1e69589fda"
       }
-    ],
-    "transientError": {
-      "reasons": [
-        "[fetch] Fetch failed: Timed out after 30 seconds when trying to fetch 'https://kimi.ai/user/agreement/userPrivacy'"
-      ]
-    }
+    ]
   }
 }
