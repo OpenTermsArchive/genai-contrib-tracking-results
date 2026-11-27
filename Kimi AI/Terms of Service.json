@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "event": {
-    "date": "2026-09-29T19:05:44.508Z",
+    "date": "2026-11-27T07:11:42.666Z",
     "serviceName": "Kimi",
     "sourceDocuments": [
       {
@@ -12,8 +12,13 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "ad6770221eade131481bdee0a04eff42befbe821"
+        "snapshotId": "bfdc269b39c9ab1a32d4729de75e5addc5fdc5e8"
       }
-    ]
+    ],
+    "transientError": {
+      "reasons": [
+        "[fetch] Fetch failed: Timed out after 30 seconds when trying to fetch 'https://kimi.ai/user/agreement/modelUse'"
+      ]
+    }
   }
 }
