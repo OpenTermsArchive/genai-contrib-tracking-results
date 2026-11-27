@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "event": {
-    "date": "2026-10-05T19:07:16.758Z",
+    "date": "2026-11-27T07:12:01.624Z",
     "serviceName": "Llama API",
     "sourceDocuments": [
       {
@@ -11,8 +11,13 @@
         "remove": "#ssrb_root_content",
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "25c23502233301559c3cf0b256cfedb25b8cfa89"
+        "snapshotId": "16fe6340bdfc08653677222205447b2bddbd8e32"
       }
-    ]
+    ],
+    "transientError": {
+      "reasons": [
+        "[fetch] Fetch failed: Timed out after 30 seconds when trying to fetch 'https://forwork.meta.com/fr/en/legal/mfw-subprocessor-list/'"
+      ]
+    }
   }
 }
